@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class FLPiePlotable {
+open class FLPiePlotable {
     
     public var value: CGFloat
     public var key: Key
