@@ -303,7 +303,7 @@ public class FLCartesianPlane: UIView, FLStylable {
     }
     
     private func drawNoDataLabel() {
-        let text = "No data available"
+        let text = ""
         let size = sizeForText(text)
         
         drawLabel(text: text, inPoint: CGPoint(x: rect.width.half - size.width.half, y: rect.height.half))
