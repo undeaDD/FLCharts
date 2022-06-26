@@ -166,7 +166,7 @@ final public class FLCard: UIView {
         let attributedText = NSMutableAttributedString()
         attributedText.append(NSAttributedString(string: formattedAverage ?? "",
                                                  attributes: [.font: UIFont.preferredFont(for: .body, weight: .bold), .foregroundColor: FLColor.black]))
-        attributedText.append(NSAttributedString(string: "Ø",
+        attributedText.append(NSAttributedString(string: " Ø",
                                                  attributes: [.font: UIFont.preferredFont(for: .footnote, weight: .bold), .foregroundColor: FLColor.darkGray]))
         averageLabel?.attributedText = attributedText
     }
